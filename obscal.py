@@ -1,18 +1,27 @@
 # function to retrive calander entries
-#def get_ical():
- #   f = open("icalout.txt", "r")
-  #  return f
+import os
+#os.remove("/Users/plynch/Code/obscal/obscal/cal.md")
 
-# get calander entries
-#f = (get_ical())
-#calstr = f.read()
+
+def writeout(output):
+    w = open("cal.md", "a")
+    w.write(output)
+    w.close()
+
+
+
 f = open("icalout.txt", "r")
 g = f.read()
-print(g.find("•"))
-print(g.find("•")+1)
-#print(f(f.find("•")):(f.find("•"))+1)  
+new = (g.split("•"))
+for x in new:
+    temp = x.splitlines()
+    print(temp)
+    writeout("##### " + temp[1] + " #####" + "\n")
+    writeout( temp[2] + "\n")
+    writeout("##### " + temp[3] + " #####" + "\n")
 
-f.close
+f.close 
+
 
 
 

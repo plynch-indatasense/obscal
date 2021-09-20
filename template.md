@@ -1,6 +1,5 @@
-# 2021-09-17
 
-## Calendar
+
 
 
 ## Tasks
@@ -27,9 +26,6 @@ no due date
 done on 2021-09-17
 ```
 ````
-
-
-
 
 
 

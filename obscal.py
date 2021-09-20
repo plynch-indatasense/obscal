@@ -3,13 +3,13 @@ import os
 
 # If file does not exist catch error
 try:
-    os.remove("/Users/plynch/Code/obscal/obscal/cal.md")
+    os.remove("/Users/pblynch/.calout/cal.md")
 except:
     print ("no file")
 
 
 def writeout(output):
-    w = open("cal.md", "a")
+    w = open("/Users/pblynch/.calout/cal.md", "a")
     w.write(output)
     w.close()
 
@@ -24,9 +24,14 @@ for x in new:
         writeout("##### " + temp[2] + " #####" + "\n")
 
 
-f.close 
 
 
+
+
+
+
+
+f.close
 
 
 

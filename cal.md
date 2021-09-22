@@ -28,6 +28,6 @@
 #####  Dinner with boss (Home) #####
     today at 21:00 - 23:59
 #####     today at 21:00 - 23:59 #####
-#####  Synergy Meeting (Work) #####
+#####  Synergy Meeting (Work) #### 
     notes: Bring snacks
 #####     notes: Bring snacks #####

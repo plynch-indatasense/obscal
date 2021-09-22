@@ -17,7 +17,7 @@ def newDayTemplate(data):
     tmp = open("/Users/pblynch/Documents/Obsidian/aws/dailyNotes/template.md", "r")
     tail = tmp.read()
     today = datetime.datetime.now()
-    outfile = open("/Users/pblynch/.calout/" + today.strftime("%A%d%b%Y") +  ".md","x") 
+    outfile = open("/Users/pblynch/Documents/Obsidian/aws/dailyNotes/" + today.strftime("%A%d%b%Y") +  ".md","x") 
     outfile.write("# " + today.strftime("%A %d %b %Y")+ "\n")
     outfile.write("## Today \n")
     outfile.write(data)

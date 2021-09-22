@@ -7,7 +7,6 @@ import datetime
 #except:
  #   print ("no file")
 
-
 def writeout(output):
     w = open("/Users/pblynch/.calout/cal.md", "a")
     w.write(output)
@@ -24,10 +23,6 @@ def newDayTemplate(data):
     outfile.write(tail)
     outfile.close
     tmp.close
-
-
-
-
 
 f = open("/Users/pblynch/.calout/icalout.txt", "r")
 g = f.read()

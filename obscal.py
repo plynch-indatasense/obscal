@@ -26,7 +26,7 @@ def newDayTemplate(data):
 
 f = open("/Users/pblynch/.calout/icalout.txt", "r")
 g = f.read()
-new = (g.split("•"))
+new = (g.split("• "))
 out = ""
 for x in new:
     temp = x.splitlines()

@@ -31,8 +31,8 @@ out = ""
 for x in new:
     temp = x.splitlines()
     if (len(temp) > 0): 
-        temp[0] = "```\n"+ temp[0]+ "\n"
-        temp[-1] = "\n" + temp[-1] + "\n ```\n"
+        temp[0] = "==\n"+ temp[0]+ "==\n"
+        temp[-1] = "\n**" + temp[-1] + "**\n \n"
         #temp[0] = "##### " + temp[0] + "\n"
         #temp[-1] ="\n###### " + temp[-1] +"\n"
         for y in temp:

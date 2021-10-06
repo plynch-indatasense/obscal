@@ -13,10 +13,10 @@ import datetime
    # w.close()
 
 def newDayTemplate(data):
-    tmp = open("~/Documents/Obsidian/aws/dailyNotes/template.md", "r")
+    tmp = open("/Users/pblynch/Code/obscal/template.md", "r")
     tail = tmp.read()
     today = datetime.datetime.now()
-    outfile = open("~/Documents/Obsidian/aws/dailyNotes/" + today.strftime("%Y-%m-%d") +  ".md","x") 
+    outfile = open("/Users/pblynch/Documents/Obsidian/aws/dailyNotes/" + today.strftime("%Y-%m-%d") +  ".md","x") 
     outfile.write("# " + today.strftime("%A %d %b %Y")+ "\n")
     outfile.write("## Today \n")
     outfile.write(data)
